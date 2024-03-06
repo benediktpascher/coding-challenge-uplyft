@@ -1,0 +1,41 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "description": "A collection of coding challenges for candidates",
+  "main": "",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.165",
+    "@types/mocha": "^5.2.7",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-typescript": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js,.ts ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uplyft-dev/coding-challenges.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uplyft-dev/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/uplyft-dev/coding-challenges#readme"
+}
